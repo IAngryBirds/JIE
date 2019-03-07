@@ -1,0 +1,9 @@
+E:\GITHUB\ilbli\移动文件\bin\Debug\移动文件.exe.config
+E:\GITHUB\ilbli\移动文件\bin\Debug\移动文件.exe
+E:\GITHUB\ilbli\移动文件\bin\Debug\移动文件.pdb
+E:\GITHUB\ilbli\移动文件\obj\Debug\移动文件.csprojResolveAssemblyReference.cache
+E:\GITHUB\ilbli\移动文件\obj\Debug\移动文件.Form1.resources
+E:\GITHUB\ilbli\移动文件\obj\Debug\移动文件.Properties.Resources.resources
+E:\GITHUB\ilbli\移动文件\obj\Debug\移动文件.csproj.GenerateResource.Cache
+E:\GITHUB\ilbli\移动文件\obj\Debug\移动文件.exe
+E:\GITHUB\ilbli\移动文件\obj\Debug\移动文件.pdb
