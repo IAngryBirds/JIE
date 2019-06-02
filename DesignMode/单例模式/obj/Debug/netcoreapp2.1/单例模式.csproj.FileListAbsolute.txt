@@ -1,0 +1,11 @@
+D:\资料库\DesignMode\DesignMode\单例模式\bin\Debug\netcoreapp2.1\单例模式.deps.json
+D:\资料库\DesignMode\DesignMode\单例模式\bin\Debug\netcoreapp2.1\单例模式.runtimeconfig.json
+D:\资料库\DesignMode\DesignMode\单例模式\bin\Debug\netcoreapp2.1\单例模式.runtimeconfig.dev.json
+D:\资料库\DesignMode\DesignMode\单例模式\bin\Debug\netcoreapp2.1\单例模式.dll
+D:\资料库\DesignMode\DesignMode\单例模式\bin\Debug\netcoreapp2.1\单例模式.pdb
+D:\资料库\DesignMode\DesignMode\单例模式\obj\Debug\netcoreapp2.1\单例模式.csprojAssemblyReference.cache
+D:\资料库\DesignMode\DesignMode\单例模式\obj\Debug\netcoreapp2.1\单例模式.csproj.CoreCompileInputs.cache
+D:\资料库\DesignMode\DesignMode\单例模式\obj\Debug\netcoreapp2.1\单例模式.AssemblyInfoInputs.cache
+D:\资料库\DesignMode\DesignMode\单例模式\obj\Debug\netcoreapp2.1\单例模式.AssemblyInfo.cs
+D:\资料库\DesignMode\DesignMode\单例模式\obj\Debug\netcoreapp2.1\单例模式.dll
+D:\资料库\DesignMode\DesignMode\单例模式\obj\Debug\netcoreapp2.1\单例模式.pdb
