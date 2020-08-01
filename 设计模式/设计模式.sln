@@ -1,9 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "单例模式.csproj", "{1E233AAE-B1BE-4CA9-9935-5465E991FE48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryLib", "FactoryLib", "{5677CBD6-243F-4C11-A0CF-E2B1B9DB4C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "工厂模式", "..\FacotryLib\工厂模式\工厂模式.csproj", "{B69F569D-07E7-44BE-BAD4-BB5D6F8A3EF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerLib", "..\FacotryLib\PlayerLib\PlayerLib.csproj", "{8A502982-2725-4B48-AF26-5C8C2C48C9A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPlayerLib", "..\FacotryLib\IPlayerLib\IPlayerLib.csproj", "{41036499-2984-4518-BE1F-F67A9015DD17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单例模式", "..\单例模式\单例模式.csproj", "{1E233AAE-B1BE-4CA9-9935-5465E991FE48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "原型模式", "原型模式", "{A0DDDAE8-039C-4EB5-BFF0-73E47F77CA57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YXConsole", "..\YXConsole\YXConsole.csproj", "{BB352CBC-1358-4A00-B7AC-47DCA3863B66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +23,37 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69F569D-07E7-44BE-BAD4-BB5D6F8A3EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69F569D-07E7-44BE-BAD4-BB5D6F8A3EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69F569D-07E7-44BE-BAD4-BB5D6F8A3EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69F569D-07E7-44BE-BAD4-BB5D6F8A3EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A502982-2725-4B48-AF26-5C8C2C48C9A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A502982-2725-4B48-AF26-5C8C2C48C9A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A502982-2725-4B48-AF26-5C8C2C48C9A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A502982-2725-4B48-AF26-5C8C2C48C9A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41036499-2984-4518-BE1F-F67A9015DD17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41036499-2984-4518-BE1F-F67A9015DD17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41036499-2984-4518-BE1F-F67A9015DD17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41036499-2984-4518-BE1F-F67A9015DD17}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1E233AAE-B1BE-4CA9-9935-5465E991FE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1E233AAE-B1BE-4CA9-9935-5465E991FE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E233AAE-B1BE-4CA9-9935-5465E991FE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E233AAE-B1BE-4CA9-9935-5465E991FE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB352CBC-1358-4A00-B7AC-47DCA3863B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB352CBC-1358-4A00-B7AC-47DCA3863B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB352CBC-1358-4A00-B7AC-47DCA3863B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB352CBC-1358-4A00-B7AC-47DCA3863B66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B69F569D-07E7-44BE-BAD4-BB5D6F8A3EF2} = {5677CBD6-243F-4C11-A0CF-E2B1B9DB4C06}
+		{8A502982-2725-4B48-AF26-5C8C2C48C9A9} = {5677CBD6-243F-4C11-A0CF-E2B1B9DB4C06}
+		{41036499-2984-4518-BE1F-F67A9015DD17} = {5677CBD6-243F-4C11-A0CF-E2B1B9DB4C06}
+		{BB352CBC-1358-4A00-B7AC-47DCA3863B66} = {A0DDDAE8-039C-4EB5-BFF0-73E47F77CA57}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26F91968-02D2-4CE0-B694-BABC7DC826EA}
 	EndGlobalSection
 EndGlobal
